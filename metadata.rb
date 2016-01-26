@@ -1,0 +1,7 @@
+name 'mylwrp'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures mylwrp'
+long_description 'Installs/Configures mylwrp'
+version '0.1.0'
