@@ -78,6 +78,7 @@ end
 def check_exists?(path)
   # This can also be accomplished with ::File.exists? however, this demonstrates how a more complex shellout
   # command can be used to determine state
-  cmd = shell_out("ls #{path}", { :returns => [0,1,2] })
-  cmd.stderr.empty? && (cmd.stdout !~ /^$/)
+  #cmd = shell_out("ls #{path}", { :returns => [0,1,2] })
+  #cmd.stderr.empty? && (cmd.stdout !~ /^$/)
+  ::File.exist?(path)
 end

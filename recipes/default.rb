@@ -13,7 +13,7 @@ mylwrp_mything 'mylwrp_add_myfile321' do
   size node['mylwrp']['size']
 end
 
-mylwrp_mything 'mylwrwp_remove_myfile321' do
+mylwrp_mything 'mylwrp_remove_myfile321' do
   path node['mylwrp']['path']
   action :remove
 end
